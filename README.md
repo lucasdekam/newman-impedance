@@ -43,13 +43,13 @@ $$
 \frac{\partial}{\partial \xi}\left[\left(1+\xi^2\right) \frac{\partial \Phi}{\partial \xi}\right]+\frac{\partial}{\partial \eta}\left[\left(1-\eta^2\right) \frac{\partial \Phi}{\partial \eta}\right]=0
 $$
 
-Quote from Newman: "to obtain a solution by the method of separation of variables we set
+Newman uses the method of separation of variables; he defines
 
 $$
 \Phi=P(\eta) Q(\xi)
 $$
 
-The differential equations for $P$ and $Q$ are
+so that the Laplace partial differential equation can be rewritten into a system of two ordinary differential equations:
 
 $$
 \begin{aligned}
@@ -58,9 +58,9 @@ $$
 \end{aligned}
 $$
 
-(unquote). The solutions to these equations are Legendre polynomials. 
+The solutions to these equations are Legendre polynomials. 
 
-We define the potential in the solution as $\Phi=V_0 e^{j \omega t} U(r, z)$. If $\Phi$ satisfies Laplace's equation, then $U$ also satisfies it, because all $r$ and $z$-dependence is in $U$. Thus we obtain
+To describe the behavior at different frequencies, we define the potential in the solution as $\Phi=V_0 e^{j \omega t} U(r, z)$. If $\Phi$ satisfies Laplace's equation, then $U$ also satisfies it, because all $r$ and $z$-dependence is in $U$. Thus we obtain
 
 $$
 U=\sum_{n=0}^{\infty} B_n P_{2 n}(\eta) M_{2 n}(\xi)
