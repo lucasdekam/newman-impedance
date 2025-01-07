@@ -58,7 +58,7 @@ $$
 \end{aligned}
 $$
 
-The solutions to these equations are Legendre polynomials. 
+The solutions to these equations are Legendre polynomials, in Newman's notation $P_{2n}(\eta)$ and $M_{2n}(\xi)$. 
 
 To describe the behavior at different frequencies, we define the potential in the solution as $\Phi=V_0 e^{j \omega t} U(r, z)$. If $\Phi$ satisfies Laplace's equation, then $U$ also satisfies it, because all $r$ and $z$-dependence is in $U$. Thus we obtain
 
