@@ -114,5 +114,5 @@ $$
 which, with $M_0{ }^{\prime}(0)=-2 / \pi$, leads to 
 
 $$
-Z=V / I=1 / 4 r_0 \times B_0.
+Z=\frac{V}{I}= \frac{1}{4 r_0 \kappa B_0}.
 $$
