@@ -96,7 +96,7 @@ and
 
 $$M_{mn} = \int_0^1 \eta P_{2 m}(\eta) P_{2 n}(\eta) d \eta$$
 
-Can be approximated by taking a finite number of terms, because $B_n$ and the integrals become smaller and smaller for increasing $n$. Then we can solve this system with numpy. 
+The infinite-dimensional linear system can be approximated by taking the first few dimensions, because $B_n$ and the integrals become smaller and smaller for increasing $n$. Then we can solve this system with numpy. 
 
 ## Calculating the impedance
 The impedance only depends on $B_0$. Following Newman the total current is given by
