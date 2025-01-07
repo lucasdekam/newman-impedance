@@ -96,13 +96,18 @@ and
 
 $$M_{mn} = \int_0^1 \eta P_{2 m}(\eta) P_{2 n}(\eta) d \eta$$
 
-Can be approximated by taking a finite number of terms, because $B_n$ and the integrals become smaller and smaller for increasing $n$. Then solve with numpy. The impedance only depends on $B_0$. See Newman's papers -- they say that the total current is given by
+Can be approximated by taking a finite number of terms, because $B_n$ and the integrals become smaller and smaller for increasing $n$. Then we can solve this system with numpy. 
+
+The impedance only depends on $B_0$. Following Newman the total current is given by
 
 $$
-\begin{aligned}
-I=\int_0^{r_0} i 2 \pi r d r=-2 \pi r_0{ }^2 \kappa & \left.\int_0^1 \eta \frac{\partial \Phi}{\partial z}\right|_{z=0} d \eta \\
-& =-2 \pi r_0 \kappa V_o e^{j \omega t} B_0 M_{o^{\prime}}(0)
-\end{aligned}
+I=\int_0^{r_0} i 2 \pi r d r=-2 \pi r_0{ }^2 \kappa \left.\int_0^1 \eta \frac{\partial \Phi}{\partial z}\right|_{z=0} d \eta 
+$$
+
+so
+
+$$
+I =-2 \pi r_0 \kappa V_o e^{j \omega t} B_0 M_{o^{\prime}}(0)
 $$
 
 which, with $M_0{ }^{\prime}(0)=-2 / \pi$, leads to 
